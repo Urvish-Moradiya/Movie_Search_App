@@ -1,0 +1,83 @@
+.movie-details-container {
+    margin: 0 auto;
+    padding: 60px 40px;
+    background-color: #f4f4f8;
+    font-family: 'Arial', sans-serif;
+}
+
+.movie-details-wrapper {
+    display: flex;
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.movie-poster {
+    flex: 0 0 300px;
+    height: 500px;
+    max-width: 400px;
+}
+
+
+.movie-info {
+    flex: 1;
+    padding: 30px;
+    background-color: rgb(162, 169, 189);
+}
+
+.movie-title {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #6a5acd;
+    padding-bottom: 10px;
+}
+
+.movie-details-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.movie-detail-item {
+    background-color: #f9f9ff;
+    padding: 12px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.detail-label {
+    font-weight: bold;
+    color: #6a5acd;
+    margin-right: 10px;
+}
+
+.detail-value {
+    color: #2c3e50;
+}
+
+.movie-plot {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #34495e;
+    background-color: #f9f9ff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.rating-section {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imdb-rating {
+    background-color: #f5c518;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
